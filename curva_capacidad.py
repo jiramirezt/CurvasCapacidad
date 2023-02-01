@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # METADATOS DEL RASTER
 # Abrir archivo raster 
-DEMRst = rasterio.open('DEM_SanAndres.tif')
+DEMRst = rasterio.open('DEM.tif')
 print(DEMRst.count)
 # Mostrar resolución del raster
 print(DEMRst.res)
